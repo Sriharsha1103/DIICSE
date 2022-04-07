@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MyAppCSED</string>
+    <string name="first_screen_name">CSED First Screen</string>
+    <string name="second_screen_name">Second Screen</string>
+    <string name="click_me">Click Me</string>
+    <string name="initial_count_value">0</string>
+</resources>
