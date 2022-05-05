@@ -32,6 +32,7 @@ public class MyAsyncTask extends AsyncTask<Void,Void,String> {
             for(int i=0;i<jsonArray.length();i++){
                 JSONObject o = jsonArray.getJSONObject(i);
                 Log.i("Result Object",o.toString());
+                Log.i("Movie Name:",o.getString("title"));
 
             }
 
