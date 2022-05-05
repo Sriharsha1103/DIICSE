@@ -4,4 +4,63 @@
     <string name="second_screen_name">Second Screen</string>
     <string name="click_me">Click Me</string>
     <string name="initial_count_value">0</string>
+    <string-array name="my_animals">
+        <item>Ant</item>
+        <item>Rat</item>
+        <item>Cat</item>
+        <item>Tiger</item>
+        <item>Cheetah</item>
+        <item>Lion</item>
+        <item>Gorilla</item>
+        <item>Ant</item>
+        <item>Rat</item>
+        <item>Cat</item>
+        <item>Tiger</item>
+        <item>Cheetah</item>
+        <item>Lion</item>
+        <item>Gorilla</item>
+        <item>Ant</item>
+        <item>Rat</item>
+        <item>Cat</item>
+        <item>Tiger</item>
+        <item>Cheetah</item>
+        <item>Lion</item>
+        <item>Gorilla</item>
+        <item>Ant</item>
+        <item>Rat</item>
+        <item>Cat</item>
+        <item>Tiger</item>
+        <item>Cheetah</item>
+        <item>Lion</item>
+        <item>Gorilla</item>
+        <item>Ant</item>
+        <item>Rat</item>
+        <item>Cat</item>
+        <item>Tiger</item>
+        <item>Cheetah</item>
+        <item>Lion</item>
+        <item>Gorilla</item>
+        <item>Ant</item>
+        <item>Rat</item>
+        <item>Cat</item>
+        <item>Tiger</item>
+        <item>Cheetah</item>
+        <item>Lion</item>
+        <item>Gorilla</item>
+        <item>Ant</item>
+        <item>Rat</item>
+        <item>Cat</item>
+        <item>Tiger</item>
+        <item>Cheetah</item>
+        <item>Lion</item>
+        <item>Gorilla</item>
+        <item>Ant</item>
+        <item>Rat</item>
+        <item>Cat</item>
+        <item>Tiger</item>
+        <item>Cheetah</item>
+        <item>Lion</item>
+        <item>Gorilla</item>
+
+    </string-array>
 </resources>
