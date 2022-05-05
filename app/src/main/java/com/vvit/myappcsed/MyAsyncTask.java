@@ -8,7 +8,6 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 import java.io.IOException;
-import java.net.URL;
 
 public class MyAsyncTask extends AsyncTask<Void,Void,String> {
 
