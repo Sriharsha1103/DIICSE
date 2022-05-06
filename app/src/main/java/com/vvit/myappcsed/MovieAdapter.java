@@ -1,10 +1,12 @@
 package com.vvit.myappcsed;
 
 import android.content.Context;
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
@@ -35,6 +37,13 @@ public class MovieAdapter extends RecyclerView.Adapter<MovieAdapter.MovieViewHol
         movie.setRelease_date(myMovieList.get(position).getRelease_date());
         holder.movieName.setText(movie.getTitle());
         holder.movieReleaseDate.setText(movie.getRelease_date());
+        holder.movieName.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Log.i("Clicked on : ",movie.getTitle());
+                Toast.makeText(context, "Clicked on "+movie.getTitle(), Toast.LENGTH_SHORT).show();
+            }
+        });
     }
 
     @Override

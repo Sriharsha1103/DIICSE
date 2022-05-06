@@ -14,7 +14,10 @@
         android:theme="@style/Theme.MyAppCSED">
         <activity
             android:name=".HomeScreen"
-            android:exported="false" />
+            android:exported="true" >
+
+        </activity>
+
         <activity
             android:name=".DRecyclerViewDemo"
             android:exported="true"></activity>

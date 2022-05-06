@@ -1,12 +1,18 @@
 package com.vvit.myappcsed;
 
-public class Movie {
+import java.io.Serializable;
+
+public class Movie implements Serializable {
     private String title;
     private int vote_average;
     private String overview;
     private String release_date;
 
     public Movie() {
+    }
+    public Movie(String title, String release_date){
+        this.title = title;
+        this.release_date = release_date;
     }
 
     public Movie(String title, int vote_average, String overview, String release_date) {
